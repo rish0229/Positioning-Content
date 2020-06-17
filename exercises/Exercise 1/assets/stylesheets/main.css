@@ -1,0 +1,205 @@
+/* Resets */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+section:first-child,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+section:first-child,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Master-styling */
+
+h1 {
+  font-size: 2.5rem;
+  margin: 15px 0;
+}
+
+/* Layout-styling */
+
+section:first-child,
+footer {
+  padding: 50px;
+  box-sizing: border-box;
+}
+header {
+  background: red;
+}
+section:first-child {
+  background: green;
+}
+.img-section {
+  background: yellow;
+}
+main {
+  background: orange;
+}
+section:first-child {
+  float: left;
+  width: 30%;
+  margin: 32px 1.5%;
+}
+.img-section {
+  float: right;
+  width: 63%;
+  margin: 32px 1.5%;
+}
+footer {
+  background: black;
+  clear: both;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: block;
+}
+.clearfix:after {
+  clear: both;
+}
+
+/* HEADER-STYLING */
+
+header {
+  padding: 30px 10px;
+}
+.brand,
+nav,
+li {
+  display: inline-block;
+}
+nav {
+  float: right;
+}
+li {
+  margin-right: 15px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Main-content */
+
+img:first-child {
+  float: right;
+}
+.img-section {
+  padding: 10px 2px 19px 2px;
+}
