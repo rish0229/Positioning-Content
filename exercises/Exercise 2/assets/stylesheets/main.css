@@ -144,24 +144,28 @@ header {
   background: rgb(129, 167, 167);
   padding: 30px 10px 30px 25px;
 }
+header section {
+  display: inline-block;
+}
+nav {
+  vertical-align: super;
+  margin-left: 700px;
+}
 .brand,
 nav,
 li {
   display: inline-block;
 }
-nav {
-  float: right;
-}
 .brand {
   font-size: 2rem;
 }
 li {
-  padding: 10px 10px;
+  padding: 0 10px;
 }
 
 /* Main-content-styling */
 
-section {
+main section {
   margin: 50px 0;
   padding: 20px 0;
   font-size: 0;
