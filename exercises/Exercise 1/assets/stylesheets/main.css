@@ -90,7 +90,6 @@ video {
 }
 /* HTML5 display-role reset for older browsers */
 article,
-section:first-child,
 details,
 figcaption,
 figure,
@@ -179,12 +178,20 @@ nav {
 /* Main-content */
 
 article {
-  margin: 90px 0;
+  margin: 76px 0;
   padding: 0 50px;
 }
 .col {
   display: inline-block;
-  width: 30%;
+}
+.text-section {
+  width: 60%;
+}
+.img-section {
+  vertical-align: super;
+  width: 25%;
+  text-align: center;
+  margin-left: 80px;
 }
 
 /* Footer */
