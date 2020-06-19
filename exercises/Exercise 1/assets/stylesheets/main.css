@@ -153,12 +153,12 @@ main {
 }
 section:first-child {
   float: left;
-  width: 30%;
+  width: 63%;
   margin: 32px 1.5%;
 }
 .img-section {
   float: right;
-  width: 63%;
+  width: 30%;
   margin: 32px 1.5%;
 }
 footer {
@@ -197,9 +197,6 @@ a {
 
 /* Main-content */
 
-img:first-child {
-  float: right;
-}
 .img-section {
-  padding: 10px 2px 19px 2px;
+  padding: 10px 5px;
 }
