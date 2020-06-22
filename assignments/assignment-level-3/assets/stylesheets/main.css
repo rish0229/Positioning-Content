@@ -1,0 +1,325 @@
+/* Resets */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* GLOBAL */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h4 {
+  font-size: 1.3rem;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+  background: #5888c4;
+  padding: 70px 100px 170px 100px;
+  font-family: sans-serif;
+}
+.left-side,
+.right-side,
+ul,
+li {
+  display: inline-block;
+}
+.right-side {
+  float: right;
+}
+.left-side a {
+  color: white;
+  font-size: 1.1rem;
+  padding-left: 20px;
+}
+.right-side a {
+  color: rgb(233, 233, 233);
+  font-size: 0.8rem;
+}
+li {
+  padding: 0 20px;
+}
+header h1,
+header p {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+header h1 {
+  margin: 130px 0 30px 0;
+  color: rgb(233, 233, 233);
+  font-size: 3.1rem;
+}
+header p {
+  color: rgb(206, 206, 206);
+  font-size: 0.9rem;
+}
+sub {
+  vertical-align: bottom;
+}
+
+/* MAIN-CONTENT-SECTION-1 */
+
+.section-1 {
+  padding: 70px 150px;
+}
+.col {
+  float: left;
+  line-height: 1.3;
+}
+.col-1-3 {
+  width: calc((100% - 120px) / 3);
+  margin: 0 20px;
+  padding: 30px;
+  color: rgb(129, 129, 129);
+}
+.col h4 {
+  color: #417bc2;
+}
+.col p {
+  margin: 35px 0;
+  font-size: 1rem;
+}
+.col a {
+  background: #5888c4;
+  padding: 12px 17px;
+  color: rgb(236, 236, 236);
+}
+.cf::after,
+.cf::before {
+  content: '';
+  display: table;
+}
+.cf::after {
+  clear: both;
+}
+
+/* MAIN-CONTENT-SECTION-2 */
+
+.section-2 {
+  background-color: #5888c4;
+  padding: 70px 150px;
+}
+.heading h2,
+.heading p {
+  text-align: center;
+}
+.heading h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.3rem;
+  color: rgb(233, 233, 233);
+}
+.heading p {
+  margin: 20px 0 60px 0;
+  font-size: 0.9rem;
+  color: rgb(206, 206, 206);
+}
+.col-1-4 {
+  border: 1px solid;
+  margin: 0 20px;
+  width: calc(25% - 40px);
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(206, 206, 206);
+}
+.col-1-4 img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+.col-1-4 h4 {
+  color: rgb(233, 233, 233);
+  margin-top: 19px;
+}
+.col-1-4 p {
+  color: rgb(206, 206, 206);
+  margin-top: -0.1px;
+  font-size: 0.9rem;
+}
+
+/* MAIN-CONTENT-SECTION-3 */
+
+.section-3 {
+  padding: 70px 150px 30px;
+}
+.section-3 h2,
+.section-3 p {
+  text-align: center;
+}
+.section-3 h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.3rem;
+  color: #5888c4;
+}
+.section-3 p {
+  margin: 20px 0 60px 0;
+  font-size: 0.9rem;
+  color: rgb(129, 129, 129);
+}
+.col-1-2 {
+  margin: 0 20px;
+  width: calc(50% - 40px);
+  padding: 30px;
+}
+.col-1-2 img {
+  width: 100%;
+  height: 130px;
+}
+.col-1-2 h4,
+.col-1-2 p {
+  text-align: left;
+}
+.col-1-2 h4 {
+  margin: 20px 0;
+}
+.section-3 .cf {
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+/* FOOTER-STYLING */
+
+footer {
+  padding: 20px 200px 40px 200px;
+  color: rgb(129, 129, 129);
+}
+footer .right-side {
+  height: 20px;
+  width: 30%;
+  border: 1px solid;
+}

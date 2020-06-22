@@ -1,0 +1,235 @@
+/* Resets */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* GLOBAL */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+p {
+  line-height: 1.5;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+img {
+  max-width: 260px;
+  height: 260px;
+}
+
+/* HEADER */
+
+header {
+  background: rgb(221, 221, 129);
+  padding: 20px 30px;
+  position: fixed;
+  width: 100%;
+}
+.left-side,
+.right-side,
+ul,
+li {
+  display: inline-block;
+}
+.left-side a {
+  font-size: 2rem;
+}
+.right-side {
+  float: right;
+  padding-top: 9px;
+}
+li {
+  padding: 0px 1.5rem;
+}
+
+/* MAIN-CONTENT */
+
+article {
+  padding: 130px 50px 50px 30px;
+  background: rgb(201, 201, 63);
+  width: 100%;
+}
+.col {
+  display: inline-block;
+}
+.col-1-2 {
+  max-width: 67%;
+  vertical-align: middle;
+}
+.col-2-2 {
+  max-width: 30%;
+  vertical-align: middle;
+  padding-left: 100px;
+}
+
+/* IMAGE-GALLERY */
+
+.gallery-row {
+  padding: 20px 160px;
+  background-color: rgb(139, 139, 14);
+}
+.gallery-row h1 {
+  text-align: center;
+}
+.gallery-row img {
+  margin: 20px 40px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(87, 87, 4);
+  color: rgb(245, 245, 192);
+  padding: 30px 50px 30px 30px;
+}
+footer p {
+  font-size: 1.2rem;
+  display: inline-block;
+}
+footer a {
+  color: rgb(245, 245, 192);
+  font-size: 1rem;
+  background: rgb(29, 29, 2);
+  padding: 6px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+}
