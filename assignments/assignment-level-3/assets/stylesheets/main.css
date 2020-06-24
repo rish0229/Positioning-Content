@@ -145,12 +145,15 @@ a {
   color: black;
   text-decoration: none;
 }
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
 
 /* HEADER */
 
 header {
   background: #5888c4;
-  padding: 70px 100px 170px 100px;
   font-family: sans-serif;
 }
 .left-side,
@@ -194,9 +197,6 @@ sub {
 
 /* MAIN-CONTENT-SECTION-1 */
 
-.section-1 {
-  padding: 70px 150px;
-}
 .col {
   float: left;
   line-height: 1.3;
@@ -232,7 +232,6 @@ sub {
 
 .section-2 {
   background-color: #5888c4;
-  padding: 70px 150px;
 }
 .heading h2,
 .heading p {
@@ -274,9 +273,6 @@ sub {
 
 /* MAIN-CONTENT-SECTION-3 */
 
-.section-3 {
-  padding: 70px 150px 30px;
-}
 .section-3 h2,
 .section-3 p {
   text-align: center;
@@ -315,7 +311,6 @@ sub {
 /* FOOTER-STYLING */
 
 footer {
-  padding: 20px 200px 40px 200px;
   color: rgb(129, 129, 129);
 }
 footer .right-side {

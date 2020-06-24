@@ -1,0 +1,232 @@
+/* Resets */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* GLOBAL */
+
+body {
+  background-color: rgb(202, 165, 165);
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  border: 1px solid;
+  border-bottom: none;
+}
+.cf::after,
+.cf::before {
+  content: '';
+  display: table;
+}
+.cf::after {
+  clear: both;
+}
+
+/* HEADER */
+
+header .container {
+  border-bottom: none;
+}
+.left-side,
+.right-side {
+  border: 1px solid;
+  padding: 20px 100px;
+}
+.left-side {
+  float: left;
+}
+.right-side {
+  float: right;
+}
+
+/* HERO-SECTION */
+
+.hero {
+  border-top: none;
+  padding: 100px 0;
+}
+.welcome-line,
+.bottom-line {
+  border: 1px solid;
+  width: 200px;
+  margin: 15px auto;
+}
+.welcome-line {
+  padding: 20px 0;
+  width: 300px;
+}
+.bottom-line {
+  padding: 15px 0;
+}
+
+/* SECTION-2 */
+
+.box {
+  float: left;
+  padding: 125px 0;
+  border: 1px solid;
+  width: calc(33.33% - 40px);
+  margin: 0 20px;
+}
+
+/* SECTION-3 */
+
+.heading {
+  margin-bottom: 40px;
+}
+.box-1 {
+  width: calc(25% - 40px);
+}
+.heading-top-line,
+.heading-bottom-line {
+  border: 1px solid;
+  width: 200px;
+  margin: 0 auto;
+}
+.heading-top-line {
+  padding: 20px 0;
+  width: 300px;
+}
+.heading-bottom-line {
+  padding: 15px 0;
+  margin: 15px auto 15px auto;
+}
+
+/* SECTION-4 */
+
+.box-2 {
+  width: calc(50% - 40px);
+}
+
+/* FOOTER */
