@@ -160,14 +160,25 @@ header .container {
 }
 .left-side,
 .right-side {
-  border: 1px solid;
-  padding: 20px 100px;
+  display: inline-block;
+  vertical-align: middle;
 }
 .left-side {
-  float: left;
+  padding: 20px 100px;
+  border: 1px solid;
 }
 .right-side {
-  float: right;
+  margin-left: calc(100% - 634px);
+}
+li {
+  border: 1px solid;
+  padding: 10px 30px;
+  display: inline-block;
+  margin-left: 20px;
+}
+ul,
+li {
+  height: 25px;
 }
 
 /* HERO-SECTION */
